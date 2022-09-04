@@ -6,7 +6,7 @@ Realizzazione di un applicativo per la gestione delle prenotazioni delle postazi
 
 Ogni [postazione] è identificata da un codice univoco, una descrizione, un tipo (PRIVATO, OPENSPACE, SALA RIUNIONI), un numero massimo di occupanti e un edificio.
 
-L'[edificio] ha un nome, un indirizzo e una città.
+L'[edificio] ha un nome, un [indirizzo].
 
 Una postazione può essere prenotata da un [utente], che è identificato da uno username, un nome completo ed una email. La [prenotazione] vale per un solo giorno e può essere effettuata solo se quel giorno la postazione risulta libera. Un utente può ricercare le postazioni indicando il tipo di postazione desiderato e la città di interesse.
 
