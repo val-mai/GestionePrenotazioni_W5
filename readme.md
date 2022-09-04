@@ -1,3 +1,5 @@
+## Sistema di gestione prenotazioni e test
+
 Realizzazione di un applicativo per la gestione delle prenotazioni delle postazioni aziendali.
 
 Ogni [postazione] è identificata da un codice univoco, una descrizione, un tipo (PRIVATO, OPENSPACE, SALA RIUNIONI), un numero massimo di occupanti e un edificio.
