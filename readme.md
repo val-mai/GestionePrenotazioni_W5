@@ -1,4 +1,6 @@
-## Sistema di gestione prenotazioni e test
+## Sistema di gestione prenotazioni con test
+
+#### Descrizione
 
 Realizzazione di un applicativo per la gestione delle prenotazioni delle postazioni aziendali.
 
@@ -10,28 +12,33 @@ Una postazione può essere prenotata da un [utente], che è identificato da uno 
 
 Un utente può avere più prenotazioni in corso, ma non può prenotare più di una postazione per una particolare data.
 
+#### Analisi
+
 1) Modelli
    - Postazione
      - Codice univoco
-     - descrizione
-     - tipo
-     - numero massimo occupanti
-     - edificio
+     - Descrizione
+     - Tipo (Privata, openspace, sala riunioni)
+     - Numero massimo occupanti
+     - Edificio
    - Edificio
-     - nome
-     - indirizzo
+     - Nome
+     - Indirizzo
    - Indirizzo
      - Città 
      - Via
-     - CAP
+     - Provincia
    - Utente
-     - username
-     - nome completo
-     - email
+     - Username
+     - Nome completo
+     - Email
    - Prenotazione
-     - utente
-     - postazione
-     - data
+     - Utente
+     - Postazione
+     - Data
+ 
 2) Operazioni
-   - Effettuare una prenotazione (controlli su disponibilità e prenotazioni multiple)
+   - Effettuare una prenotazione
+      - controlli su disponibilità postazione
+      - controllo su prenotazioni multiple dello stesso utente nella stessa data
    - Cercare postazioni indicando Tipo e Città
